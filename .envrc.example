@@ -1,1 +1,9 @@
-export my_conn_string=
+layout python3
+
+export env=development
+
+export db_host=
+export db_database=
+export db_user=
+export db_port=
+export db_password=
