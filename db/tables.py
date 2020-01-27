@@ -1,4 +1,4 @@
-from datawarehouse import settings, DB
+from db import settings, DB
 from sqlalchemy import DateTime, Column, String, schema, Float
 
 from sqlalchemy.ext.declarative import declarative_base
