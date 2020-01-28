@@ -13,6 +13,6 @@ Make sure `direnv` is installed.
 
 Run these commands to run the Docker Container. The web server will be available at `localhost:8080`.
 
-`docker build . -t airflow`
+`docker build . -t day_trader_airflow`
 
-`docker run -d -p 8080:8080 airflow webserver`
+`docker-compose -f docker-compose.yml up -d` (make sure `docker-compose` is installed)
