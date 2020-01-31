@@ -7,3 +7,5 @@ export db_database=
 export db_user=
 export db_port=
 export db_password=
+
+export FERNET_KEY=
